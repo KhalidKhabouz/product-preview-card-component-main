@@ -91,6 +91,10 @@ main {
     margin-top: 1px;
 }
 
+.card_action:hover {
+    background-color: var(--very_dark_blue);
+}
+
 .card_price {
     display: flex;
     align-items: center;
@@ -111,3 +115,12 @@ main {
 footer {
 
 }
+
+@media (max-width: 375px) {
+    body {
+    }
+    .card {
+        flex-direction: column;
+    }
+
+  }
